@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoopLayout">
+        <!--默认圆角-->
+        <attr name="defaultCorner" format="float" />
+        <!--默认间隔-->
+        <attr name="defaultSpace" format="float" />
+        <!--默认编剧-->
+        <attr name="defaultMargin" format="float" />
+        <!--默认背景图-->
+        <attr name="defaultBackground" format="reference" />
+        <!--默认指示器图-->
+        <attr name="defaultIndicator" format="reference" />
+        <!--选中指示器图-->
+        <attr name="selectIndicator" format="reference" />
+        <!--指示器位置-->
+        <attr name="indicatorPosition" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="none" value="3" />
+        </attr>
+        <!--是否自动轮询-->
+        <attr name="isAutoPlay" format="boolean" />
+        <!--轮询速度 毫秒-->
+        <attr name="loopInterval" format="integer" />
+    </declare-styleable>
+</resources>

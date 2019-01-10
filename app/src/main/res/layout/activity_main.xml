@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:looplayout="http://schemas.android.com/apk/res-auto"
+    xmlns:tet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.makise.mk_loopbanner.ViewpagerWithIndicator
+        android:id="@+id/vp_wi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        looplayout:defaultBackground="@mipmap/banner_default"
+        looplayout:defaultCorner="30"
+        looplayout:defaultIndicator="@drawable/point_default"
+        looplayout:defaultMargin="70"
+        looplayout:defaultSpace="20"
+        looplayout:indicatorPosition="none"
+        looplayout:isAutoPlay="true"
+        looplayout:loopInterval="5000"
+        looplayout:selectIndicator="@drawable/point_seleted" />
+
+</LinearLayout>
